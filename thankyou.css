@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #00000017;
-
+    padding: 0 30px;
 }
 #search-box{
     border: 0;
@@ -233,12 +233,26 @@ ul {
   .logo img {
     height: 100px;
   }
+  .mobile{
+    display: none;
+  }
+  #close{
+    display: none;
+  }
   @media (max-width:799px) {
     .table {
       text-align: center;
       margin-left: 45px;
       margin-top: 50px;
       width: 85%;
+  }
+  #close{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
   }
 
   /* .navbar{
@@ -323,5 +337,6 @@ cursor: pointer;
     padding-left: 10px;
     align-items: center;
     border-bottom: 1px solid #00000017;
+    padding: 0 5px;
   }
 }
